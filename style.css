@@ -66,6 +66,26 @@ h1 {
   font-size: 1.4rem;
 }
 
+.download-measuremate {
+  margin-top: 1rem;
+  font-weight: 200;
+  font-size: 1.1rem;
+  padding: .5rem 1rem;
+  outline: none;
+  border: solid 1px black;
+  border-radius: .2rem;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.download-measuremate:where(:hover, :focus) {
+  background-color: rgb(195, 195, 195)
+}
+
+.download-measuremate:focus {
+  outline: solid 2px black;
+}
+
 @media (max-width: 800px) {
 
   header {
